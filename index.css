@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background: url(../images/wedding-landing-background.png) repeat center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+}
+* {box-sizing:border-box;}
+body {background:url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png);
+  color:#444349;
+font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;}
+
+.cover {    background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat 70% center/cover;
+height:100vh;
+width:100%;
+text-align:center;
+display:table;
+}
+
+.wrap {display:table-cell;
+vertical-align:middle;
+
+}
+
+.wrapper {    margin: 0 auto;
+    padding: .625rem;
+    color: hsla(0,0%,100%,.9);
+    background: hsla(100,0%,0%,.5);
+  
+}
+
+.tagline {font-size:1.25rem;
+letter-spacing:.15rem;
+font-family:muli;}
+
+
+.tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+}
+
+.wrapper h1{font-family:'Great Vibes' , cursive;
+font-size:3.15rem;
+margin-bottom:0;
+color:#d2ba87;}
+
+span {font-family:'muli' , serif ;
+font-size:1.2rem;
+}
+
+
+
+
+span:before {content:"";
+background-color:white;
+height:1px;
+display:inline-block;
+  vertical-align:middle;
+width:30px;
+margin-right:.7rem}
+
+span:after {content:"";
+background-color:white;
+height:1px;
+display:inline-block;
+  vertical-align:middle;
+width:30px;
+margin-right:.7rem}
+
+.location {text-align:center;
+  font-family:'muli', serif;
+      width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+ 
+
+
+}
+
+h2 {margin:2rem;
+font-family:'Great Vibes' , cursive;
+ font-size:2.5rem; 
+  text-align:center;
+}
+
+h3 {font-size:1.5rem;
+margin:1rem;
+padding:.5rem;
+font-family: 'Libre Baskerville', serif;
+}
+
+
+img {width:8rem;}
+
+.loc::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+}
+
+.program {background-color:hsla(100,0%,0%,.6);
+color:#d2ba87;
+
+margin:0;
+padding:0;}
+
+.P {margin:1rem;
+font-size:.8rem;
+letter-spacing:.2px;
+  
+
+padding:1rem;}
+
+.it {padding-bottom:1rem;}
+
+.gift {text-align:center;
+
+}
+
+.gift {margin:1rem;}
+
+.question {background-color:hsla(100,0%,0%,.6);
+  color:#d2ba87;
+}
+
+
+.qdiv {margin:1rem;
+font-size:.8rem;
+letter-spacing:.2px;
+  
+
+padding:.1rem;
+}
+section h2 {padding-top:1rem;}
+section h3 {text-align:center;}
+
+.qdiv::after {    content: "";
+    display: block;
+    height: .1875rem;
+    width: 50vw;
+    margin: 1.5rem auto;
+    background-color: #d2ba87;}
+
+.answer {
+  padding-bottom:16px;
+  font-size:.8rem;
+}
+
+.quest {padding-bottom:5px;
+  font-size:1rem;;
+  
+}
+
+.contact {text-align:center;
+width:100%;
+font-size:1rem;
+}
+.contact p {margin:.5rem;
+padding:.3rem;}
+
+
+
+footer {background-color:hsla(100,0%,0%,.6);
+  color:white;
+font-size:.8rem;
+margin:0;
+padding:1.5rem;
+text-align:center;}
+
+a {color:#bd806e;}
+a:visited {color:#bd806e;}
+a:hover {color:#eda087;
+transition:.5s;}
+
+@media (min-width:768px)
+{
+  
+  .wrapper {width:50%;
+  }
+  
+  .qdiv::after {display:none;}
+  
+  .loc::after {display:none;
+  }
+  
+  .location {width:95%;
+  text-align:center;
+  }
+  .loc {display:inline-block;
+  margin:.5rem;
+  padding:1.5rem;
+  width:30%;}
+.P {width: 40vw;
+    margin: 0 auto;
+}
+  .qdiv {
+  display:inline-block;
+  vertical-align:top;
+  padding:1.5rem;
+  margin:.5rem;
+  width:30%;}
+  
+}
+
+
+
+
+
+
+
+
+
+
